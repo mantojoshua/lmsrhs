@@ -1,0 +1,565 @@
+body {
+  animation: fadeInAnimation ease 3s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+}
+
+@keyframes fadeInAnimation {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+a {
+  text-decoration: none;
+}
+
+body {
+  background-color: #FCFCFC;
+}
+
+
+
+.header {
+
+  margin: 8px;
+}
+
+.header h1 {
+
+  font-weight: 72;
+  font-size: 50px;
+  /*3.3vw;*/
+}
+
+.statTab {
+  margin-top: 100px;
+  background-color: #FF7E7E;
+  padding: 8px;
+  align-items: center;
+  /* height: fit-content; */
+  /*5.5vw;*/
+}
+
+.stats {
+  margin-top: 12px;
+  /*.5vw;*/
+  height: 100%;
+  display: inline;
+}
+
+.level {
+  width: 100%;
+  height: 20px;
+  /*1vw;*/
+  background-color: #434343;
+  border: 2px solid #eabd33;
+}
+
+.fillLevel {
+  background-color: #ffffff;
+  width: 10%;
+  height: 16px;
+  /*.8vw;*/
+}
+
+.tabTitle {
+  text-align: center;
+
+  font-size: 50px;
+  margin: 16px
+}
+
+.footer {
+  height: 45px;
+  background-color: #cc4125;
+  padding: 8px;
+  color: white;
+  border: 2px solid black;
+}
+
+.attribution a {
+  text-decoration: None;
+  color: black;
+  font-size: large;
+
+}
+
+.avatar {
+  width: 50px;
+  height: 50px;
+  margin-left: 12px;
+  margin-right: 12px;
+  border: 2px solid white;
+}
+
+.listavatar {
+  width: 180px;
+  height: 180px;
+  margin: 10px;
+  border: 2px solid white;
+}
+
+.logo {
+  width: 80px;
+  height: 70px;
+  margin-left: 12px;
+  margin-right: 12px;
+}
+
+/* The side navigation menu */
+.sidebar {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  background-color: #ffffff;
+  position: static;
+  height: 100%;
+  overflow: auto;
+  text-align: center;
+
+  font-size: 40px;
+  font-weight: 72;
+}
+
+#AssignedQuest {
+  font-size: 36px;
+}
+
+#sidebarNotif {
+  font-size: 12px;
+
+}
+
+/* Sidebar links */
+.sidebar a {
+  display: block;
+  color: black;
+  padding: 8px;
+  text-decoration: none;
+  margin-bottom: 16px;
+  margin-top: 16px;
+  background-color: #FF7E7E;
+
+}
+
+/* Active/current link */
+.sidebar a.active {
+  background-color: #D20000;
+  color: white;
+}
+
+/* Links on mouse-over */
+.sidebar a:hover:not(.active) {
+  background-color: #999999;
+  color: black;
+}
+
+div.content {
+  margin: 8px;
+  margin-top: 18px;
+  border: 8px solid #666666;
+  padding: 16px;
+  height: fit-content;
+  background-color: #E3E3E3;
+
+}
+
+div.course {
+
+  border-top: 6px solid #FF7E7E;
+  border-left: 6px solid #666666;
+  border-right: 6px solid #666666;
+  border-bottom: 6px solid #666666;
+  background-color: #999999;
+  margin-bottom: 12px;
+
+
+}
+
+.courseheader {
+  background-color: #FF7E7E;
+  color: white;
+  text-align: center;
+  padding: 2px;
+  text-decoration: none;
+}
+
+.courseheader #ctitle {
+  font-size: 25px;
+
+}
+
+.courseDesc {
+  padding: 16px;
+  background-color: #999999;
+  min-height: 200px;
+  max-height: 200px;
+  height: calc(100%);
+  width: calc(100%);
+  display: inline-block;
+  white-space: normal;
+  overflow: scroll;
+  overflow-x: hidden;
+
+}
+
+.formRespond {
+  border: 6px solid #666666;
+  padding: 8px;
+  background-color: #999999;
+  text-align: center;
+  width: max-content;
+  margin: 8px;
+}
+
+
+div.quest {
+  border: 6px solid #666666;
+  background-color: #999999;
+  margin: 4px;
+}
+
+.questTitle {
+  text-align: center;
+  background-color: #cc4125;
+  margin: 1px;
+}
+
+div.questImage {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  margin: 4px;
+}
+
+.questImage {
+  min-width: 80px;
+  min-height: 40px;
+  max-height: fit-content;
+  width: 100%;
+  height: 100%;
+  padding: 24px;
+}
+
+.questElements {
+  text-align: center;
+  padding: 2%;
+  font-size: 20px;
+}
+
+#questTitle {
+  white-space: normal;
+  font-size: 28px;
+}
+
+/*text overflow*/
+.questFileName {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.workTypeLabel {
+  color: #ffffff;
+  background-color: #434343;
+  padding: 6px;
+}
+
+
+.achievement0 {
+  height: 200px;
+  width: 200px;
+  border: 4px solid #666666;
+  background-color: #434343;
+  margin: 8px;
+  text-align: center;
+}
+
+.achievement1 {
+  height: 200px;
+  width: 200px;
+  border: 4px solid #eb6734;
+  background-color: #eabd33;
+  margin: 8px;
+  text-align: center;
+}
+
+.achieveIMG {
+  height: 100px;
+  width: 100px;
+  padding: 6px;
+  text-align: center;
+}
+
+.achieveText {}
+
+.EnrollForm {
+  text-decoration: none;
+}
+
+.bgIMG {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  z-index: -1;
+}
+
+.eduLOGO {
+  height: 700px;
+  width: 800px;
+  left: 125px;
+  top: 175px;
+  z-index: 1;
+}
+
+.clabel {
+  font-size: 24px;
+}
+
+.enrollCourse {
+  text-decoration: none;
+}
+
+.enrollIcon {
+  display: inline;
+  left: 100px;
+  text-align: center;
+}
+
+.enrollCourse a {
+  color: black;
+}
+
+.viewCourse {
+  text-decoration: none;
+
+}
+
+.viewCourse div {
+  color: white;
+}
+
+.archiveRow {
+  margin-bottom: 10px;
+}
+
+.enrollbox {
+  padding: 5px;
+  background-color: #999999;
+  min-height: 150px;
+  max-height: 150px;
+  height: calc(100%);
+  width: calc(100%);
+  text-align: center;
+}
+
+.courseModal {
+  padding: 16px;
+  background-color: #999999;
+}
+
+.courseCreate {
+  color: white;
+  text-decoration: none;
+}
+
+.guildTab {
+  background-color: #999999;
+  border: 2px solid #666666;
+  ;
+}
+
+.guildTitle {
+  border: 4px solid #666666;
+  padding: 8px;
+  text-align: center;
+  background-color: #cc4125;
+}
+
+.registerForm {
+  margin: 16px;
+  padding: 4px;
+  text-align: center;
+}
+
+.nameSect {
+  margin: 4px;
+  margin-bottom: 12px;
+}
+
+#signup {
+  text-decoration: none;
+  color: white;
+}
+
+select#class option img {
+  width: fit-content;
+  height: fit-content;
+}
+
+/*Login Screen Classes*/
+
+
+.loginIMG {
+  width: fit-content;
+  height: auto;
+  max-width: 100%;
+}
+
+.InstructorLogin {
+  background-color: #eb6734;
+  text-align: center;
+  padding-bottom: 60px;
+}
+
+.StudentLogin {
+  background-color: #ffe3b1;
+  text-align: center;
+  padding-bottom: 60px;
+}
+
+.LoginBanner {
+  background-color: #434343;
+  text-align: center;
+  padding-top: 16px;
+  padding-bottom: 16px;
+}
+
+.LoginLabel {
+
+  font-size: 70px;
+  color: black;
+}
+
+.loginlink {
+  text-decoration: none;
+}
+
+.loginForm {
+  padding-top: 70px;
+}
+
+.formLabel {
+  font-size: 24px;
+}
+
+.loginRegister {
+  text-decoration: none;
+  color: white;
+}
+
+.loginRegister:hover {
+  color: white;
+}
+
+.registerTitle {
+  text-align: center;
+
+  font-size: xx-large;
+}
+
+.announcePost {
+  margin-bottom: 12px;
+  padding: 4px;
+  border: 4px solid #434343;
+  background-color: #666666;
+}
+
+.announceDate {
+  text-align: center;
+  padding: 2px;
+}
+
+.announceTitle {
+  text-align: center;
+  padding: 2px;
+}
+
+.announceText {
+  padding: 1.5vh;
+  font-size: large;
+}
+
+a.forumLink {
+  color: black;
+}
+
+a.buttonLink {
+  color: #ffffff;
+}
+
+.tutorialBox {
+  border: 2px solid #434343;
+  padding: 8px;
+
+}
+
+.tutorialHeader {
+  padding: 4px;
+  background-color: #eb6734;
+  border: 2px solid #434343;
+}
+
+.imgFit {
+  width: 160px;
+  height: 160px;
+  object-fit: cover;
+}
+
+#tutAssignedQuest {}
+
+#tutIMGNavBar {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+#tutIMGStatusBar {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+#tutIMGLibrary {
+  padding: 12px;
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+#tutIMGLibraryPopup {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+#tutIMGAchievements {
+  padding: 8px;
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+#tutIMGQuestType {
+  padding: 8px;
+
+  height: 256px;
+  width: 256px;
+  object-fit: cover;
+}
+
+.center {
+  text-align: center;
+}
+
+.questGiven {
+  color: #ffffff;
+  background-color: #434343;
+  padding: 16px;
+  margin: 4px;
+}
