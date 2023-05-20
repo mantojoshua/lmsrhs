@@ -133,7 +133,7 @@
                           <li><a href='#'>SENIOR HIGH SCHOOL</a>
                           		<ul>
                                 	<li>
-                                		<a href='vshs.php'>REQUEST</a>
+                                		<a href='#'>REQUEST</a>
                                     </li>
                                 </ul>
                           </li>
@@ -141,9 +141,9 @@
                     </li>
                     <li><a href='#'>PORTAL</a>
                        <ul>
-                          <li><a href='lrlog.php?'>LEARNING RESOURCES</a></li>
-                          <li><a href='sbm.php?'>SCHOOL-BASED MANAGEMENT</a></li>
-                          <li><a href='login.php?'>TEACHER/STAFF</a></li>
+                          <li><a href='#'>LEARNING RESOURCES</a></li>
+                          <li><a href='#'>SCHOOL-BASED MANAGEMENT</a></li>
+                          <li><a href='#'>TEACHER/STAFF</a></li>
                        </ul>
                     </li>
     
@@ -151,11 +151,11 @@
                     	<a href='#'>GALLERY</a>
                         <ul>
                           <li><a href='#'>JUNIOR HIGH SCHOOL</a></li>
-                          <li><a href='shs.html'>SENIOR HIGH SCHOOL</a></li>
+                          <li><a href='#'>SENIOR HIGH SCHOOL</a></li>
                        </ul>
                     </li>
-                    <li><a href='announcement.html'>ANNOUNCEMENT</a></li>
-                    <li><a href='contactus.html'>Contact Us</a></li>
+                    <li><a href='#'>ANNOUNCEMENT</a></li>
+                    <li><a href='#'>Contact Us</a></li>
                     <li><a href='Login_Type.php'>LMS</a></li>
                     </ul>
 				</nav>
@@ -215,51 +215,7 @@
 
 				<div align="center" class="inline">
 					
-				<h1 class="home-cont-2">WELCOME</h1>
-				<div class="border-1"></div>
-				
-					<div class="homeDiv" id="auto">	
-						<img src="img/RICHARD SANTOS.jpg" alt="">	
-						<div class="myText">	
-							<h2>RICHARD T. SANTOS</h2>
-							<h3>PRINCIPAL IV</h3>
-							<p> Communication is the heart of any organization. Connecting the internal and external stakeholders, and the world at large provides us opportunity to be informed and be responsive to the latest programs, projects, and activities of the school. This website serves as an instrument to showcase the school's thrusts, challenges, and accomplishments in line with our mantra of One DepEd Pasig. RHS offers curricular, special programs and alternative delivery mode for Curriculum of the K to 12 Basic Education.</p>
-							<a href="#" class="btn">Learn more</a>
-						</div>
-					</div>	
-					
 
-					<div class="homeDiv" id="auto">	
-						<img src="img/Dimagiba.jpg" alt="">
-						<div class="myText">	
-							<h2>ROWENA O. DIMAGIBA</h2>
-							<h3>ASSISTANT PRINCIPAL II</h3>
-							<p>	Proudly, it has the state-of-the-art facilities in Home Economics. It has a 1:1 ratio of ICT students and computer units. The administration ensures the immersion of all TVL students to the different well known companies and industries in Pasig City. Its academically inclined students are being exposed to different competitions in the regional and national level to enhance their skills and to become globally competitive.</p>
-							<a href="#" class="btn">Learn more</a>
-						</div>
-					</div>
-
-					<div class="homeDiv" id="auto">	
-						<img src="img/Santos.jpg" alt="">
-						<div class="myText">	
-							<h2>REVIE G. SANTOS</h2>
-							<h3>ASSISTANT TO THE PRINCIPAL</h3>
-							<p> Rizal high school as a premier school in the Division of Pasig City once again showed its prowess in the implementation of the Senior High School. With the state-of-the-art SHS building (MAE building), well equipped laboratories, classrooms conducive to learning, supportive local government and stakeholders, and most especially dedicated and competent teachers lead by a good and hardworking school head. This is how lucky the Rizalian SHS students are.</p>
-							<a href="#" class="btn">Learn more</a>
-						</div>
-					</div>	
-
-					<div class="homeDiv" id="auto">	
-						<img src="img/Padua.jpg" alt="">
-						<div class="myText">	
-							<h2>VERONICA M. PADUA</h2>
-							<h3>ASSISTANT TO THE PRINCIPAL</h3>
-							<p> It is an honor and privilege on my part to work closely with our School Principal, Teachers, Students and Parents in conceptualizing, developing and implementing programs and projects which can have an important effect not only in the quality of leaning but to our learners as well. We hope in our little way, we can reinforce the bonds between our school, families and learners and the changing roles we play in or are assigned by the society in which we live.</p>
-							<a href="#" class="btn">Learn more</a>
-						</div>
-					</div>		
-					<div class="clr"></div>
-				</div>
 			</div>
 		</div>
 

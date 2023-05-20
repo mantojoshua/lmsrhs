@@ -57,5 +57,11 @@
             </div>
         </div>
     </body>
+    <script>
+        document.addEventListener("contextmenu", function(event) {
+    event.preventDefault();
+    alert("This is disabled for security reasons.")
+});
 
+    </script>
     </html>
