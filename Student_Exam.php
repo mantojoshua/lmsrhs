@@ -205,7 +205,7 @@ session_start();
                                 "
 
                              <div class=\"col-md-12 d-flex justify-content-center\">
-                                <form action=\"Student_Upload.php\" enctype=\"multipart/form-data\" method=\"post\">
+                                <form action=\"Student_Upload_Exam.php\" enctype=\"multipart/form-data\" method=\"post\">
                                     <input type=\"text\" name=\"studentID\" value=\"" . $idstudentsearch . "\" hidden>
                                     <input type=\"text\" name=\"xp_reward\" value=\"" . $row['xp_reward'] . "\" hidden>
                                     <input type=\"text\" name=\"workID\" value=\"" . $row['workID'] . "\" hidden>

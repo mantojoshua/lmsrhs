@@ -36,10 +36,10 @@ ob_start();
         }
         
 ?>
-            <a href="./Student_Assignment.php"><button>Return</button></a>
+            <a href="./Student_Exam.php"><button>Return</button></a>
             
             <?php
-                header("Location: ./Student_Assignment_Course.php");
+                header("Location: ./Student_Exam_Course.php");
             ?>
 
             
